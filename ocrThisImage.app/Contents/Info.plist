@@ -9,16 +9,64 @@
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
-			<key>CFBundleTypeExtensions</key>
-			<array>
-				<string>*</string>
-			</array>
-			<key>CFBundleTypeOSTypes</key>
-			<array>
-				<string>****</string>
-			</array>
 			<key>CFBundleTypeRole</key>
-			<string>Viewer</string>
+			<string>Editor</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>public.jpeg</string>
+			</array>
+			<key>NSDocumentClass</key>
+			<string>PVImageContainer</string>
+			<key>NSIsRelatedItemType</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>public.png</string>
+			</array>
+			<key>NSDocumentClass</key>
+			<string>PVImageContainer</string>
+			<key>NSIsRelatedItemType</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>public.tiff</string>
+			</array>
+			<key>NSDocumentClass</key>
+			<string>PVImageContainer</string>
+			<key>NSIsRelatedItemType</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.microsoft.bmp</string>
+			</array>
+			<key>NSDocumentClass</key>
+			<string>PVImageContainer</string>
+			<key>NSIsRelatedItemType</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.compuserve.gif</string>
+			</array>
+			<key>NSDocumentClass</key>
+			<string>PVImageContainer</string>
+			<key>NSIsRelatedItemType</key>
+			<true/>
 		</dict>
 	</array>
 	<key>CFBundleExecutable</key>
